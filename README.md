@@ -30,14 +30,24 @@ Aplikasi menggunakan koordinat tiap kota untuk meminta data `current_weather` da
 
 ## Struktur Folder
 
+```text
 weather_kalteng/
-├── android/                
-├── ios/                   
+├── android/
+├── ios/
 ├── lib/
-│   ├── main.dart            # Aplikasi, daftar kota, permintaan API, dan UI
-│   └── weather_model.dart   # Model kota dan data cuaca 
-├── pubspec.yaml             # Dependensi dan konfigurasi Flutter
-└── README.md                # Dokumentasi proyek
+│   ├── main.dart
+│   └── weather_model.dart
+├── pubspec.yaml
+└── README.md
+```
+
+**Keterangan File:**
+- `android/` — Konfigurasi aplikasi Android.
+- `ios/` — Konfigurasi aplikasi iOS.
+- `lib/main.dart` — Aplikasi utama, daftar kota, permintaan API, dan antarmuka (UI).
+- `lib/weather_model.dart` — Model kota dan data cuaca.
+- `pubspec.yaml` — Dependensi dan konfigurasi Flutter.
+- `README.md` — Dokumentasi proyek.
 
 ## Menjalankan Aplikasi
 
